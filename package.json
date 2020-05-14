@@ -20,6 +20,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "husky": "^4.2.5",
     "lint-staged": "^10.2.2",
     "standard": "^14.3.4"
   }
