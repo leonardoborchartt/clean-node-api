@@ -7,8 +7,10 @@
     "test": "jest --watchAll",
     "test:staged": "jest"
   },
-  "standard":{
-    "env":["jest"]
+  "standard": {
+    "env": [
+      "jest"
+    ]
   },
   "author": "",
   "license": "ISC",
