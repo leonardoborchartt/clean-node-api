@@ -13,9 +13,7 @@
     "test:coveralls": "npm run test:ci && coveralls < coverage/lcov.info"
   },
   "standard": {
-    "env": [
-      "jest"
-    ]
+    "env": ["jest"] 
   },
   "author": "",
   "license": "ISC",
