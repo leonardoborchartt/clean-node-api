@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1590002843913" clover="3.2.0">
-  <project timestamp="1590002843913" name="All files">
-    <metrics statements="31" coveredstatements="31" conditionals="6" coveredconditionals="6" methods="9" coveredmethods="9" elements="46" coveredelements="46" complexity="0" loc="31" ncloc="31" packages="2" files="5" classes="5"/>
+<coverage generated="1590157958427" clover="3.2.0">
+  <project timestamp="1590157958427" name="All files">
+    <metrics statements="38" coveredstatements="38" conditionals="8" coveredconditionals="8" methods="10" coveredmethods="10" elements="56" coveredelements="56" complexity="0" loc="38" ncloc="38" packages="2" files="6" classes="6"/>
     <package name="helpers">
-      <metrics statements="16" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7"/>
+      <metrics statements="19" coveredstatements="19" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8"/>
       <file name="http-response.js" path="C:\PROJETOS\clean-node-api\src\presentation\helpers\http-response.js">
         <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
-        <line num="7" count="2" type="stmt"/>
-        <line num="14" count="5" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="14" count="7" type="stmt"/>
         <line num="21" count="1" type="stmt"/>
         <line num="27" count="2" type="stmt"/>
+      </file>
+      <file name="invalid-param-error.js" path="C:\PROJETOS\clean-node-api\src\presentation\helpers\invalid-param-error.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
       </file>
       <file name="missing-param-error.js" path="C:\PROJETOS\clean-node-api\src\presentation\helpers\missing-param-error.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
@@ -23,8 +29,8 @@
       <file name="server-error.js" path="C:\PROJETOS\clean-node-api\src\presentation\helpers\server-error.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
-        <line num="3" count="9" type="stmt"/>
-        <line num="4" count="9" type="stmt"/>
+        <line num="3" count="13" type="stmt"/>
+        <line num="4" count="13" type="stmt"/>
       </file>
       <file name="unauthorized-error.js" path="C:\PROJETOS\clean-node-api\src\presentation\helpers\unauthorized-error.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
@@ -34,24 +40,28 @@
       </file>
     </package>
     <package name="routers">
-      <metrics statements="15" coveredstatements="15" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+      <metrics statements="19" coveredstatements="19" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
       <file name="login-router.js" path="C:\PROJETOS\clean-node-api\src\presentation\routers\login-router.js">
-        <metrics statements="15" coveredstatements="15" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+        <metrics statements="19" coveredstatements="19" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="6" count="10" type="stmt"/>
-        <line num="9" count="10" type="stmt"/>
-        <line num="10" count="10" type="stmt"/>
-        <line num="11" count="8" type="cond" truecount="2" falsecount="0"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="14" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="13" type="stmt"/>
+        <line num="8" count="13" type="stmt"/>
+        <line num="12" count="13" type="stmt"/>
+        <line num="13" count="13" type="stmt"/>
+        <line num="14" count="11" type="cond" truecount="2" falsecount="0"/>
         <line num="15" count="1" type="stmt"/>
-        <line num="17" count="6" type="stmt"/>
-        <line num="18" count="3" type="cond" truecount="2" falsecount="0"/>
-        <line num="19" count="1" type="stmt"/>
-        <line num="21" count="2" type="stmt"/>
-        <line num="23" count="5" type="stmt"/>
+        <line num="17" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="20" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="23" count="3" type="stmt"/>
+        <line num="24" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="29" count="7" type="stmt"/>
       </file>
     </package>
   </project>
